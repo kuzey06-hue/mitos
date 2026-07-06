@@ -1,9 +1,9 @@
 const home = {
   hero: {
     studioLabel: 'Mitos Deneyim Tasarımı',
-    line1: 'Şeyler arasındaki',
-    highlight: 'boşlukları',
-    line2: 'tasarlarız.',
+    line1: 'Mekanları',
+    highlight: 'hikayelere',
+    line2: 'dönüştürürüz.',
     disciplines: 'Müze · Sergi · İç Mekan · Kültürel Miras',
     scroll: 'Kaydır',
   },

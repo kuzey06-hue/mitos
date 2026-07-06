@@ -1,9 +1,9 @@
 const home = {
   hero: {
     studioLabel: 'Mitos Experience Design',
-    line1: 'We design the',
-    highlight: 'spaces',
-    line2: 'between things.',
+    line1: 'We turn spaces',
+    highlight: 'into stories',
+    line2: 'worth telling.',
     disciplines: 'Museum · Exhibition · Interior · Cultural Heritage',
     scroll: 'Scroll',
   },
