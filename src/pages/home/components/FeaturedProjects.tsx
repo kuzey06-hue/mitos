@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useInView } from '@/hooks/useInView';
+import { useLocalizedProjects } from '@/hooks/useLocalizedProjects';
 import { projects, type Project } from '@/mocks/projects';
 
 const featuredIds = [
@@ -21,9 +22,10 @@ export default function FeaturedProjects() {
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.1, once: true });
 
-  const featured = featuredIds
-    .map((id) => projects.find((p) => p.id === id))
-    .filter(Boolean) as Project[];
+  const localize = useLocalizedProjects();
+  const featured = (
+    featuredIds.map((id) => projects.find((p) => p.id === id)).filter(Boolean) as Project[]
+  ).map(localize);
 
   return (
     <section ref={ref} className="relative w-full px-6 md:px-10 py-24 md:py-32 bg-background-100">

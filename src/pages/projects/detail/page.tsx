@@ -6,13 +6,16 @@ import { useInView } from '@/hooks/useInView';
 import Navbar from '@/components/feature/Navbar';
 import Footer from '@/components/feature/Footer';
 import { projects } from '@/mocks/projects';
+import { useLocalizedProjects } from '@/hooks/useLocalizedProjects';
 import SEO from '@/components/base/SEO';
 
 export default function ProjectDetail() {
   const { t } = useTranslation('projects');
   useRTL();
   const { id } = useParams();
-  const project = projects.find((p) => p.id === id);
+  const localize = useLocalizedProjects();
+  const rawProject = projects.find((p) => p.id === id);
+  const project = rawProject ? localize(rawProject) : undefined;
 
   if (!project) {
     return (

@@ -7,7 +7,9 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: 'tr',
+    // No hard-coded `lng` — the LanguageDetector picks from the saved
+    // preference (localStorage) → browser language → <html lang>, falling
+    // back to Turkish. This lets the chosen language persist across reloads.
     fallbackLng: 'tr',
     supportedLngs: ['en', 'tr', 'de', 'it', 'ar'],
     defaultNS: 'common',

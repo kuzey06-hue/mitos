@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useInView } from '@/hooks/useInView';
+import { useLocalizedProjects } from '@/hooks/useLocalizedProjects';
 import type { Project } from '@/mocks/projects';
 
 interface ProjectsGridProps {
@@ -10,13 +11,14 @@ interface ProjectsGridProps {
 
 export default function ProjectsGrid({ projects }: ProjectsGridProps) {
   const { t } = useTranslation('projects');
+  const localize = useLocalizedProjects();
 
   return (
     <div className="w-full px-6 md:px-10 py-12 md:py-20">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {projects.map((project, i) => (
-            <ProjectCard key={project.id} project={project} index={i} />
+            <ProjectCard key={project.id} project={localize(project)} index={i} />
           ))}
         </div>
 
