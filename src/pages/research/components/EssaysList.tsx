@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from '@/hooks/useInView';
+import { useLocalizedResearch } from '@/hooks/useLocalizedResearch';
 import { essays } from '@/mocks/research';
 
 export default function EssaysList() {
@@ -42,6 +43,7 @@ function EssayRow({
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.15, once: true });
   const isEven = index % 2 === 0;
+  const e = useLocalizedResearch().essay(essay);
 
   return (
     <div
@@ -52,24 +54,24 @@ function EssayRow({
     >
       <div className={`relative aspect-[16/10] w-full overflow-hidden bg-background-200 lg:col-span-2 ${isEven ? 'lg:order-1' : 'lg:order-2'}`}>
         <img
-          src={essay.image}
-          alt={essay.title}
+          src={e.image}
+          alt={e.title}
           className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
         />
       </div>
 
       <div className={`lg:col-span-3 ${isEven ? 'lg:order-2' : 'lg:order-1'}`}>
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{essay.date}</span>
+          <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{e.date}</span>
           <span className="text-foreground-700">·</span>
-          <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{essay.author}</span>
+          <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{e.author}</span>
         </div>
         <h3 className="font-heading italic text-foreground-50 text-2xl md:text-3xl leading-snug mb-3">
-          {essay.title}
+          {e.title}
         </h3>
-        <p className="text-primary-400 text-[11px] tracking-[0.15em] uppercase mb-5">{essay.subtitle}</p>
+        <p className="text-primary-400 text-[11px] tracking-[0.15em] uppercase mb-5">{e.subtitle}</p>
         <div className="w-10 h-[1px] bg-primary-500 mb-5" />
-        <p className="text-foreground-400 text-sm leading-relaxed line-clamp-6">{essay.body}</p>
+        <p className="text-foreground-400 text-sm leading-relaxed line-clamp-6">{e.body}</p>
         <button className="mt-6 inline-flex items-center gap-2 text-primary-500 text-xs tracking-[0.1em] uppercase group cursor-pointer whitespace-nowrap">
           <span>{t('essays.readFull')}</span>
           <i className="ri-arrow-right-line text-sm transition-transform duration-300 group-hover:translate-x-1" style={{ width: '14px', height: '14px' }}></i>

@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from '@/hooks/useInView';
+import { useLocalizedResearch } from '@/hooks/useLocalizedResearch';
 import { articles } from '@/mocks/research';
 
 export default function ArticlesGrid() {
@@ -40,6 +41,7 @@ function ArticleCard({
 }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.15, once: true });
+  const a = useLocalizedResearch().article(article);
 
   return (
     <article
@@ -53,27 +55,27 @@ function ArticleCard({
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-background-200 mb-5">
         <img
-          src={article.image}
-          alt={article.title}
+          src={a.image}
+          alt={a.title}
           className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
         />
         <div className="absolute top-3 left-3">
           <span className="inline-block bg-background-50/80 backdrop-blur-sm text-foreground-400 text-[10px] tracking-[0.15em] uppercase px-2.5 py-1">
-            {article.category}
+            {a.category}
           </span>
         </div>
       </div>
 
       <div className="flex items-center gap-3 mb-3">
-        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{article.date}</span>
+        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{a.date}</span>
         <span className="text-foreground-700">·</span>
-        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{article.author}</span>
+        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{a.author}</span>
       </div>
       <h3 className="font-heading italic text-foreground-50 text-lg md:text-xl leading-snug mb-2 group-hover:text-primary-500 transition-colors duration-300">
-        {article.title}
+        {a.title}
       </h3>
-      <p className="text-foreground-500 text-[11px] tracking-[0.05em] leading-relaxed mb-3">{article.subtitle}</p>
-      <p className="text-foreground-400 text-xs leading-relaxed line-clamp-3">{article.excerpt}</p>
+      <p className="text-foreground-500 text-[11px] tracking-[0.05em] leading-relaxed mb-3">{a.subtitle}</p>
+      <p className="text-foreground-400 text-xs leading-relaxed line-clamp-3">{a.excerpt}</p>
     </article>
   );
 }

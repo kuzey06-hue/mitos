@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from '@/hooks/useInView';
+import { useLocalizedResearch } from '@/hooks/useLocalizedResearch';
 import { publications } from '@/mocks/research';
 
 const books = publications.filter((p) => p.type === 'Book' || p.type === 'Research Monograph');
@@ -57,6 +58,7 @@ function PublicationItem({
 }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.15, once: true });
+  const p = useLocalizedResearch().publication(publication);
 
   return (
     <div
@@ -65,24 +67,24 @@ function PublicationItem({
       style={{ transitionDelay: `${index * 100}ms`, opacity: isInView ? 1 : 0, transform: isInView ? 'translateY(0)' : 'translateY(8px)' }}
     >
       <div className="flex items-center gap-3 mb-2 flex-wrap">
-        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{publication.year}</span>
+        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{p.year}</span>
         <span className="text-foreground-700 text-[10px]">·</span>
-        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{publication.publisher}</span>
-        {publication.language && (
+        <span className="text-foreground-500 text-[11px] tracking-[0.08em]">{p.publisher}</span>
+        {p.language && (
           <>
             <span className="text-foreground-700 text-[10px]">·</span>
-            <span className="text-foreground-600 text-[10px] tracking-[0.05em]">{publication.language}</span>
+            <span className="text-foreground-600 text-[10px] tracking-[0.05em]">{p.language}</span>
           </>
         )}
       </div>
 
       <h4 className="font-heading italic text-foreground-50 text-lg leading-snug mb-2 group-hover:text-primary-500 transition-colors duration-300">
-        {publication.title}
+        {p.title}
       </h4>
 
-      <p className="text-foreground-400 text-xs leading-relaxed mb-3">{publication.description}</p>
+      <p className="text-foreground-400 text-xs leading-relaxed mb-3">{p.description}</p>
 
-      {publication.isbn && (
+      {p.isbn && (
         <p className="text-foreground-600 text-[10px] tracking-[0.05em] font-mono">ISBN {publication.isbn}</p>
       )}
     </div>

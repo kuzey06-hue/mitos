@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from '@/hooks/useInView';
+import { useLocalizedResearch } from '@/hooks/useLocalizedResearch';
 import { materials } from '@/mocks/research';
 
 export default function MaterialLibrary() {
@@ -40,6 +41,7 @@ function MaterialCard({
 }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.15, once: true });
+  const m = useLocalizedResearch().material(material);
 
   return (
     <div
@@ -49,22 +51,22 @@ function MaterialCard({
     >
       <div className="relative aspect-square w-full overflow-hidden bg-background-200 mb-4">
         <img
-          src={material.image}
-          alt={material.name}
+          src={m.image}
+          alt={m.name}
           className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
         />
         <div className="absolute top-3 right-3">
           <span className="inline-block bg-background-50/80 backdrop-blur-sm text-foreground-400 text-[10px] tracking-[0.15em] uppercase px-2 py-0.5">
-            {material.category}
+            {m.category}
           </span>
         </div>
       </div>
 
       <h4 className="font-heading italic text-foreground-50 text-base mb-1 group-hover:text-primary-500 transition-colors duration-300">
-        {material.name}
+        {m.name}
       </h4>
-      <p className="text-foreground-500 text-[11px] tracking-[0.05em] mb-2">{material.origin}</p>
-      <p className="text-foreground-400 text-xs leading-relaxed line-clamp-2">{material.characteristics}</p>
+      <p className="text-foreground-500 text-[11px] tracking-[0.05em] mb-2">{m.origin}</p>
+      <p className="text-foreground-400 text-xs leading-relaxed line-clamp-2">{m.characteristics}</p>
     </div>
   );
 }

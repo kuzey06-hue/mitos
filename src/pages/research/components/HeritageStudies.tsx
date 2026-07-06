@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from '@/hooks/useInView';
+import { useLocalizedResearch } from '@/hooks/useLocalizedResearch';
 import { heritageStudies } from '@/mocks/research';
 
 export default function HeritageStudies() {
@@ -40,6 +41,8 @@ function HeritageCard({
 }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.15, once: true });
+  const s = useLocalizedResearch().heritage(study);
+  const isOngoing = study.status === 'Ongoing';
 
   return (
     <div
@@ -49,35 +52,35 @@ function HeritageCard({
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-background-200 mb-5">
         <img
-          src={study.image}
-          alt={study.title}
+          src={s.image}
+          alt={s.title}
           className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
         />
         <div className="absolute bottom-3 left-3 flex items-center gap-2">
           <span className={`inline-block text-[10px] tracking-[0.15em] uppercase px-2 py-0.5 ${
-            study.status === 'Ongoing'
+            isOngoing
               ? 'bg-primary-500/20 text-primary-400'
               : 'bg-background-50/80 backdrop-blur-sm text-foreground-400'
           }`}>
-            {study.status}
+            {s.status}
           </span>
         </div>
       </div>
 
       <h4 className="font-heading italic text-foreground-50 text-lg leading-snug mb-2 group-hover:text-primary-500 transition-colors duration-300">
-        {study.title}
+        {s.title}
       </h4>
-      <p className="text-primary-400 text-[11px] tracking-[0.08em] mb-3">{study.subtitle}</p>
-      <p className="text-foreground-400 text-xs leading-relaxed line-clamp-3 mb-4">{study.abstract}</p>
+      <p className="text-primary-400 text-[11px] tracking-[0.08em] mb-3">{s.subtitle}</p>
+      <p className="text-foreground-400 text-xs leading-relaxed line-clamp-3 mb-4">{s.abstract}</p>
 
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-foreground-500 tracking-[0.05em]">
         <span className="flex items-center gap-1.5">
           <i className="ri-map-pin-line text-primary-500/60" style={{ width: '12px', height: '12px' }}></i>
-          {study.region}
+          {s.region}
         </span>
         <span className="flex items-center gap-1.5">
           <i className="ri-calendar-line text-primary-500/60" style={{ width: '12px', height: '12px' }}></i>
-          {study.period}
+          {s.period}
         </span>
       </div>
     </div>
