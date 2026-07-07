@@ -3,11 +3,22 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { heroSlides, HERO_INTERVAL_MS } from './heroImages';
 
+interface HeroSlideText {
+  label: string;
+  line1: string;
+  highlight: string;
+  line2: string;
+  description: string;
+}
+
 export default function Hero() {
   const { t } = useTranslation('home');
   const [active, setActive] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const count = heroSlides.length;
+
+  const slides = (t('hero.slides', { returnObjects: true }) as HeroSlideText[]) || [];
+  const slide = slides[active] || slides[0];
 
   useEffect(() => {
     const timer = setTimeout(() => setLoaded(true), 150);
@@ -64,31 +75,34 @@ export default function Hero() {
       <div className="relative h-full max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16">
         <div className="h-full flex flex-col justify-center">
           <div
-            className={`max-w-xl transition-all duration-1000 ${
-              loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            className={`max-w-xl transition-opacity duration-1000 ${
+              loaded ? 'opacity-100' : 'opacity-0'
             }`}
           >
-            {/* Brand label */}
-            <div className="flex items-center gap-4 mb-6 md:mb-8">
-              <span className="text-primary-500 text-xs tracking-[0.3em] uppercase">MITOS</span>
-              <span className="w-10 h-[1px] bg-primary-500/60" />
+            {/* Per-slide text — re-animates on each slide change */}
+            <div key={active} className="animate-hero-fade">
+              {/* Brand eyebrow */}
+              <div className="flex items-center gap-4 mb-6 md:mb-8">
+                <span className="text-primary-500 text-xs tracking-[0.3em] uppercase">MITOS</span>
+                <span className="w-10 h-[1px] bg-primary-500/60" />
+              </div>
+
+              {/* Headline */}
+              <h1 className="font-heading italic text-foreground-50 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight">
+                {slide?.line1}
+                <br />
+                <span className="text-primary-500">{slide?.highlight}</span>
+                <br />
+                {slide?.line2}
+              </h1>
+
+              {/* Description */}
+              <p className="mt-6 md:mt-8 text-foreground-400 text-sm md:text-base leading-relaxed max-w-md">
+                {slide?.description}
+              </p>
             </div>
 
-            {/* Headline */}
-            <h1 className="font-heading italic text-foreground-50 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight">
-              {t('hero.line1')}
-              <br />
-              <span className="text-primary-500">{t('hero.highlight')}</span>
-              <br />
-              {t('hero.line2')}
-            </h1>
-
-            {/* Description */}
-            <p className="mt-6 md:mt-8 text-foreground-400 text-sm md:text-base leading-relaxed max-w-md">
-              {t('hero.description')}
-            </p>
-
-            {/* CTA */}
+            {/* CTA (static across slides) */}
             <Link
               to="/projects"
               className="group mt-8 md:mt-10 inline-flex items-center gap-3 text-primary-500 text-xs tracking-[0.2em] uppercase hover:text-primary-400 transition-colors duration-300 whitespace-nowrap"

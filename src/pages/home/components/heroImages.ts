@@ -24,4 +24,4 @@ export const heroSlides: HeroSlide[] = [
 ];
 
 /** Milliseconds each slide stays before advancing. */
-export const HERO_INTERVAL_MS = 6000;
+export const HERO_INTERVAL_MS = 9000;
