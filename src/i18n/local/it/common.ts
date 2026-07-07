@@ -15,6 +15,7 @@ const common = {
     linkedin: 'LinkedIn',
   },
   language: 'Lingua',
+  imageComingSoon: 'Immagine in arrivo',
 };
 
 export default common;

@@ -15,6 +15,7 @@ const common = {
     linkedin: 'LinkedIn',
   },
   language: 'Dil',
+  imageComingSoon: 'Görsel yakında eklenecek',
 };
 
 export default common;

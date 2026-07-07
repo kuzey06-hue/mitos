@@ -73,6 +73,7 @@ function ProjectCard({
   project: Project;
   index: number;
 }) {
+  const { t } = useTranslation('common');
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.15, once: true });
   const hasImage = project.coverImage && project.coverImage.trim().length > 0;
@@ -99,7 +100,7 @@ function ProjectCard({
         ) : (
           <div className="w-full h-full flex items-center justify-center">
             <span className="text-secondary-500 text-xs tracking-[0.2em] uppercase">
-              Görsel yakında eklenecek
+              {t('common:imageComingSoon')}
             </span>
           </div>
         )}

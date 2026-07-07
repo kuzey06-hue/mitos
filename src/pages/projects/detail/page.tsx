@@ -91,7 +91,7 @@ export default function ProjectDetail() {
         ) : (
           <div className="absolute inset-0 bg-secondary-100 flex items-center justify-center">
             <span className="text-secondary-500 text-xs tracking-[0.2em] uppercase">
-              Görsel yakında eklenecek
+              {t('common:imageComingSoon')}
             </span>
           </div>
         )}
@@ -191,6 +191,7 @@ function ProjectSection({
     specs?: { label: string; value: string }[];
   };
 }) {
+  const { t } = useTranslation('common');
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.15, once: true });
   const hasImage = section.image && section.image.trim().length > 0;
@@ -229,7 +230,7 @@ function ProjectSection({
           {!hasImage && (
             <div className="relative w-full aspect-[16/7] overflow-hidden bg-secondary-100 flex items-center justify-center">
               <span className="text-secondary-500 text-xs tracking-[0.2em] uppercase">
-                Görsel yakında eklenecek
+                {t('common:imageComingSoon')}
               </span>
             </div>
           )}
@@ -272,7 +273,7 @@ function ProjectSection({
                 {!hasImage && (
                   <div className="relative aspect-[4/5] w-full overflow-hidden bg-secondary-100 flex items-center justify-center">
                     <span className="text-secondary-500 text-xs tracking-[0.2em] uppercase">
-                      Görsel yakında eklenecek
+                      {t('common:imageComingSoon')}
                     </span>
                   </div>
                 )}

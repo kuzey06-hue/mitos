@@ -331,6 +331,106 @@ const de: ProjectContentPack = {
     Complex: 'Komplex',
     Mosaic: 'Mosaik',
   },
+  items: {
+    'erzurum-museum-karaz': {
+      tagline:
+        'Die uralte Kultur des gebirgigen Ostanatoliens, zum Leben erweckt durch immersives Ausstellungsdesign.',
+      description:
+        'Eine Dauerausstellung im Museum Erzurum, gewidmet der KARAZ-Kultur – einer der ältesten Zivilisationen des gebirgigen Ostanatoliens. Die Ausstellung verwandelt archäologische Forschung in eindringliche räumliche Erzählungen und führt die Besucher durch Bestattungstraditionen, Siedlungsarchitektur, Glaubenssysteme und Keramikkunst eines uralten Volkes.',
+    },
+    'erzincan-altintepe-oren-yeri': {
+      tagline: 'Gestern und heute von Altıntepe – eine urartäische Festung über der Ebene von Erzincan.',
+      description:
+        'Eine Dauerausstellung und ein Vor-Ort-Erlebnis an der archäologischen Stätte Altıntepe in Erzincan, einer der bedeutendsten urartäischen Siedlungen Ostanatoliens. Das Projekt umfasst das Ausstellungsdesign im Standortmuseum sowie Leitsystem und Interpretation über die antike Festung, den Tempel und den Palastkomplex.',
+    },
+    'cumhurbaskanligi-15-temmuz-demokrasi-muzesi': {
+      tagline:
+        'Ein monumentales Museum, das den Widerstandsgeist einer Nation in der Nacht des 15. Juli 2016 ehrt.',
+      description:
+        'Das Präsidiale Museum der Demokratie vom 15. Juli steht als bleibendes Zeugnis für Mut und Opferbereitschaft während des Putschversuchs von 2016. Das Ausstellungsdesign verwandelt eine zutiefst persönliche nationale Erinnerung in ein feierliches, immersives Erzählerlebnis.',
+    },
+    'istanbul-biennial-pavilion': {
+      tagline: 'Ein temporäres Denkmal der Vergänglichkeit.',
+      description:
+        'Für die 17. Istanbul-Biennale entworfen, erkundete dieser temporäre Pavillon das Verhältnis von Erinnern und Vergessen. Auf nur 90 Tage angelegt, verwendete er sichtbar alternde Materialien – rostenden Stahl, verwitterndes Holz, verblassende Textilien – und machte die Entropie zum wichtigsten Medium.',
+    },
+    'istanbul-ayasofya-muzesi': {
+      tagline:
+        'Eines der bedeutendsten Denkmäler der Weltarchitektur, seit über 1.500 Jahren bestehend.',
+      description:
+        'Ursprünglich 537 n. Chr. von Kaiser Justinian als Kathedrale erbaut, ist die Hagia Sophia eines der wichtigsten religiösen und kulturellen Wahrzeichen der Weltgeschichte. Mit ihrer gewaltigen Kuppel, den kunstvollen Mosaiken und ihrer vielschichtigen Geschichte stellt sie eine einzigartige Herausforderung für das Ausstellungsdesign dar.',
+    },
+    'istanbul-topkapi-sarayi-muzesi': {
+      tagline:
+        'Vier Jahrhunderte lang das Herz osmanischer Macht, heute eines der größten Palastmuseen der Welt.',
+      description:
+        'Zwischen 1460 und 1478 auf dem Gelände der byzantinischen Akropolis am Sarayburnu errichtet, diente der Topkapı-Palast vom Fatih Sultan Mehmed bis zu Sultan Abdülmecid als Zentrum des Osmanischen Reiches. Heute beherbergt er auf rund 400.000 Quadratmetern kaiserliche Sammlungen, heilige Reliquien und über 300.000 Archivdokumente.',
+    },
+    'istanbul-topkapi-harem': {
+      tagline:
+        'Die verbotene, private Welt der osmanischen Dynastie – 300 Räume, 9 Bäder, 2 Moscheen und zahllose Geheimnisse.',
+      description:
+        'Der Harem des Topkapı-Palastes war der private Wohnbereich der osmanischen Dynastie. Über vier Jahrhunderte vom 16. bis zum 19. Jahrhundert erweitert, bildet der Komplex eines der architektonisch bedeutendsten Ensembles der osmanischen Geschichte und verlangt einen sensiblen interpretativen Ansatz.',
+    },
+    'konya-mevlana-muzesi': {
+      tagline:
+        'Das geistige Zentrum der drehenden Derwische, wo Rumis Erbe in Licht, Klang und Stein weiterlebt.',
+      description:
+        'Das im ursprünglichen Mevlevi-Derwischkloster untergebrachte Mevlâna-Museum in Konya ist eine der geistig bedeutendsten Kulturstätten der Türkei. Der um das Grab von Rumi (Mevlâna) errichtete Komplex aus dem 13. Jahrhundert zieht jährlich über zwei Millionen Besucher an.',
+    },
+    'antalya-demre-muzesi': {
+      tagline:
+        'Die antike Kirche des Heiligen Nikolaus – wo Geschichte, Glaube und die Legende des Weihnachtsmanns zusammentreffen.',
+      description:
+        'Die im 3. Jahrhundert n. Chr. erbaute Nikolauskirche in Demre (dem antiken Myra) ist eines der bedeutendsten Denkmäler mittelbyzantinischer Architektur. Der Museums- und Kirchenkomplex vereint ein archäologisches Denkmal, einen Pilgerort und den Ursprung einer weltweit beliebten Folkloretradition.',
+    },
+    'istanbul-kariye-muzesi': {
+      tagline:
+        'Eines der schönsten erhaltenen Beispiele byzantinischer Mosaik- und Freskenkunst, verborgen in der alten Stadtmauer.',
+      description:
+        'Das Kariye-Museum (Chora-Kirche) innerhalb der alten Istanbuler Stadtmauern beherbergt einige der spektakulärsten erhaltenen Werke spätbyzantinischer Kunst. Seine Wände sind mit goldenen Mosaiken und lebendigen Fresken bedeckt; die Herausforderung liegt darin, diese Schätze zu beleuchten und zugleich vor Lichtschäden zu schützen.',
+    },
+    'istanbul-arkeoloji-muzeleri': {
+      tagline:
+        'Eine der größten archäologischen Sammlungen der Welt, untergebracht in einem neoklassizistischen Meisterwerk.',
+      description:
+        '1891 von Osman Hamdi Bey als Kaiserliches Museum gegründet, umfassen die Archäologischen Museen Istanbuls drei Gebäude und über eine Million Artefakte – darunter weltberühmte Meisterwerke wie den Alexandersarkophag und den Vertrag von Kadesch, den ältesten bekannten Friedensvertrag der Welt.',
+    },
+    'anadolu-medeniyetleri-muzesi': {
+      tagline:
+        'Museum des Jahres in Europa, mit einer außergewöhnlichen Sammlung vom Paläolithikum bis zur osmanischen Zeit.',
+      description:
+        'Im historischen Atpazarı-Viertel Ankaras, in zwei osmanischen Bauten des 15. Jahrhunderts gelegen, präsentiert das Museum für Anatolische Zivilisationen eine der bedeutendsten archäologischen Sammlungen der Welt. 1997 wurde es zum Europäischen Museum des Jahres gekürt.',
+    },
+    'ankara-cumhuriyet-muzesi': {
+      tagline:
+        'Das Gebäude, in dem die Republik geformt wurde – heute ein Museum, das den Gründungsgeist der modernen Türkei bewahrt.',
+      description:
+        'Das Republikmuseum befindet sich im Gebäude der Zweiten Großen Nationalversammlung der Türkei, 1923 von Vedat Tek entworfen. Von 1924 bis 1960 als Parlament genutzt, war dieses Steingebäude Zeuge der grundlegenden Entscheidungen der Türkischen Republik unter Atatürk.',
+    },
+    'zeugma-mozaik-muzesi': {
+      tagline:
+        'Das größte Mosaikmuseum der Welt, in dem das legendäre Zigeunermädchen über zwei Jahrtausende blickt.',
+      description:
+        'Das Zeugma-Mosaikmuseum in Gaziantep beherbergt die weltweit größte Sammlung antiker Mosaike unter einem Dach. Es zeigt außergewöhnliche römische Bodenmosaike, die vor der Flutung durch den Birecik-Staudamm aus der antiken Stadt Zeugma gerettet wurden.',
+    },
+    'troya-muzesi': {
+      tagline: 'Preisgekrönte zeitgenössische Museumsarchitektur, die ein 3.000 Jahre altes Epos rahmt.',
+      description:
+        'Das am Eingang zur UNESCO-Welterbestätte des antiken Troja gelegene Troja-Museum wurde 2018 mit internationalem Beifall eröffnet. Sein kubischer, mehrgeschossiger Bau beherbergt Funde aus den neun archäologischen Schichten Trojas und schafft einen Dialog zwischen homerischer Legende und zeitgenössischer Museologie.',
+    },
+    'gobeklitepe-oren-yeri': {
+      tagline: 'Der Nullpunkt der Geschichte: 12.000 Jahre alte Tempel, die erste monumentale Architektur der Menschheit.',
+      description:
+        'Göbeklitepe, eine UNESCO-Welterbestätte, ist der älteste bekannte monumentale Tempelkomplex der Menschheit. Seine T-förmigen Megalithpfeiler aus der Zeit um 10.000 v. Chr. haben unser Verständnis der neolithischen Revolution grundlegend verändert.',
+    },
+    'nevsehir-hacibektas-muzesi': {
+      tagline:
+        'Das Kloster des Hacı Bektaş Veli aus dem 13. Jahrhundert, Bewahrer des geistigen und kulturellen Erbes des anatolischen Alevitentums.',
+      description:
+        'Der im 13. Jahrhundert vom türkischen Mystiker Hacı Bektaş Veli gegründete Komplex ist eine der bedeutendsten geistigen und kulturellen Stätten Anatoliens. 1964 in ein Museum umgewandelt, dient er heute zugleich als ethnographisches Museum und lebendiger Pilgerort.',
+    },
+  },
 };
 
 const it: ProjectContentPack = {
@@ -365,6 +465,106 @@ const it: ProjectContentPack = {
     Complex: 'Complesso',
     Mosaic: 'Mosaico',
   },
+  items: {
+    'erzurum-museum-karaz': {
+      tagline:
+        'L’antica cultura dell’Anatolia orientale montuosa, riportata in vita attraverso un design espositivo immersivo.',
+      description:
+        'Una mostra permanente al Museo di Erzurum dedicata alla cultura KARAZ, una delle più antiche civiltà dell’Anatolia orientale montuosa. La mostra trasforma la ricerca archeologica in intense narrazioni spaziali, guidando i visitatori attraverso tradizioni funerarie, architettura degli insediamenti, sistemi religiosi e arte ceramica di un popolo antico.',
+    },
+    'erzincan-altintepe-oren-yeri': {
+      tagline: 'Ieri e oggi di Altıntepe – una fortezza urartea che si erge dalla piana di Erzincan.',
+      description:
+        'Una mostra permanente ed esperienza in situ presso il sito archeologico di Altıntepe a Erzincan, uno dei più importanti insediamenti urartei dell’Anatolia orientale. Il progetto comprende il design espositivo del museo in loco, oltre alla segnaletica e all’interpretazione dell’antica fortezza, del tempio e del complesso reale.',
+    },
+    'cumhurbaskanligi-15-temmuz-demokrasi-muzesi': {
+      tagline:
+        'Un museo monumentale che onora lo spirito di resistenza di una nazione nella notte del 15 luglio 2016.',
+      description:
+        'Il Museo presidenziale della Democrazia del 15 luglio è una testimonianza permanente del coraggio e del sacrificio mostrati durante il tentato colpo di stato del 2016. Il design espositivo trasforma una memoria nazionale profondamente personale in un’esperienza narrativa solenne e immersiva.',
+    },
+    'istanbul-biennial-pavilion': {
+      tagline: 'Un monumento temporaneo all’impermanenza.',
+      description:
+        'Progettato per la 17ª Biennale di Istanbul, questo padiglione temporaneo ha esplorato il rapporto tra memoria e oblio. Costruito per durare solo 90 giorni, ha impiegato materiali che invecchiavano a vista – acciaio arrugginito, legno esposto agli agenti atmosferici, tessuti sbiaditi – facendo dell’entropia il mezzo principale.',
+    },
+    'istanbul-ayasofya-muzesi': {
+      tagline:
+        'Uno dei monumenti più significativi della storia dell’architettura mondiale, in piedi da oltre 1.500 anni.',
+      description:
+        'Originariamente costruita come cattedrale dall’imperatore Giustiniano nel 537 d.C., Santa Sofia è uno dei più importanti punti di riferimento religiosi e culturali della storia mondiale. Con la sua immensa cupola e i suoi mosaici, rappresenta una sfida unica per il design espositivo.',
+    },
+    'istanbul-topkapi-sarayi-muzesi': {
+      tagline:
+        'Per quattro secoli cuore del potere ottomano, oggi uno dei più grandi palazzi-museo del mondo.',
+      description:
+        'Costruito tra il 1460 e il 1478 sul sito dell’acropoli bizantina di Sarayburnu, il Palazzo Topkapı fu il centro dell’Impero ottomano da Fatih Sultan Mehmed a Sultano Abdülmecid. Oggi custodisce collezioni imperiali, reliquie sacre e oltre 300.000 documenti d’archivio su circa 400.000 metri quadrati.',
+    },
+    'istanbul-topkapi-harem': {
+      tagline:
+        'Il mondo proibito e privato della dinastia ottomana: 300 stanze, 9 bagni, 2 moschee e innumerevoli segreti.',
+      description:
+        'L’Harem del Palazzo Topkapı era l’alloggio privato della dinastia ottomana. Ampliato per quattro secoli dal XVI al XIX secolo, il complesso rappresenta uno degli insiemi architettonicamente più significativi della storia ottomana e richiede un approccio interpretativo sensibile.',
+    },
+    'konya-mevlana-muzesi': {
+      tagline:
+        'Il centro spirituale dei dervisci rotanti, dove l’eredità di Rumi vive nella luce, nel suono e nella pietra.',
+      description:
+        'Ospitato nell’originale loggia dei dervisci Mevlevi, il Museo Mevlâna di Konya è uno dei siti culturali spiritualmente più significativi della Turchia. Il complesso del XIII secolo, costruito attorno alla tomba di Rumi (Mevlâna), attira ogni anno oltre due milioni di visitatori.',
+    },
+    'antalya-demre-muzesi': {
+      tagline:
+        'L’antica chiesa di San Nicola, dove storia, fede e la leggenda di Babbo Natale si incontrano.',
+      description:
+        'La Chiesa di San Nicola a Demre (l’antica Myra), costruita nel III secolo d.C., è uno dei più importanti monumenti dell’architettura medio-bizantina. Il complesso museale e ecclesiastico riunisce un monumento archeologico, un luogo di pellegrinaggio e l’origine di un’amata tradizione folcloristica globale.',
+    },
+    'istanbul-kariye-muzesi': {
+      tagline:
+        'Uno dei più begli esempi superstiti di arte musiva e ad affresco bizantina, nascosto nelle antiche mura.',
+      description:
+        'Il Museo Kariye (Chiesa di Chora), all’interno delle antiche mura di Istanbul, custodisce alcuni dei più spettacolari esempi superstiti dell’arte tardo-bizantina. Le sue pareti sono ricoperte di mosaici dorati e vivaci affreschi; la sfida sta nell’illuminare questi tesori proteggendoli al contempo dai danni della luce.',
+    },
+    'istanbul-arkeoloji-muzeleri': {
+      tagline:
+        'Una delle più grandi collezioni archeologiche del mondo, in un capolavoro neoclassico.',
+      description:
+        'Fondati nel 1891 da Osman Hamdi Bey come Museo Imperiale, i Musei Archeologici di Istanbul comprendono tre edifici e oltre un milione di reperti, tra cui capolavori di fama mondiale come il Sarcofago di Alessandro e il Trattato di Kadesh, il più antico trattato di pace conosciuto.',
+    },
+    'anadolu-medeniyetleri-muzesi': {
+      tagline:
+        'Museo dell’Anno in Europa, con una straordinaria collezione dal Paleolitico all’era ottomana.',
+      description:
+        'Nello storico quartiere Atpazarı di Ankara, in due edifici ottomani del XV secolo, il Museo delle Civiltà Anatoliche presenta una delle collezioni archeologiche più importanti del mondo. Nel 1997 è stato premiato come Museo Europeo dell’Anno.',
+    },
+    'ankara-cumhuriyet-muzesi': {
+      tagline:
+        'L’edificio in cui fu plasmata la Repubblica, oggi museo che custodisce lo spirito fondativo della Turchia moderna.',
+      description:
+        'Il Museo della Repubblica ha sede nell’edificio della Seconda Grande Assemblea Nazionale turca, progettato da Vedat Tek nel 1923. Usato come parlamento dal 1924 al 1960, questo edificio in pietra fu testimone delle decisioni fondanti della Repubblica turca sotto Atatürk.',
+    },
+    'zeugma-mozaik-muzesi': {
+      tagline:
+        'Il più grande museo di mosaici del mondo, dove la leggendaria Zingarella osserva attraverso due millenni.',
+      description:
+        'Il Museo dei Mosaici di Zeugma a Gaziantep ospita la più grande collezione al mondo di mosaici antichi sotto un unico tetto. Espone straordinari mosaici pavimentali di epoca romana, salvati dall’antica città di Zeugma prima della sommersione a causa della diga di Birecik.',
+    },
+    'troya-muzesi': {
+      tagline: 'Pluripremiata architettura museale contemporanea che incornicia un’epopea di 3.000 anni.',
+      description:
+        'Situato all’ingresso del sito UNESCO dell’antica Troia, il Museo di Troia è stato inaugurato nel 2018 con consenso internazionale. La sua struttura cubica e multipiano ospita reperti dai nove strati archeologici di Troia, creando un dialogo tra la leggenda omerica e la museologia contemporanea.',
+    },
+    'gobeklitepe-oren-yeri': {
+      tagline: 'Il punto zero della storia: templi di 12.000 anni, la prima architettura monumentale dell’umanità.',
+      description:
+        'Sito del Patrimonio Mondiale UNESCO, Göbeklitepe è il più antico complesso templare monumentale conosciuto nella storia umana. I suoi pilastri megalitici a forma di T, risalenti al 10.000 a.C., hanno rivoluzionato la nostra comprensione della Rivoluzione neolitica.',
+    },
+    'nevsehir-hacibektas-muzesi': {
+      tagline:
+        'La loggia del XIII secolo di Hacı Bektaş Veli, custode del patrimonio spirituale e culturale dell’alevismo anatolico.',
+      description:
+        'Fondato nel XIII secolo dal mistico turco Hacı Bektaş Veli, il complesso è uno dei siti spirituali e culturali più importanti dell’Anatolia. Convertito in museo nel 1964, oggi funge sia da museo etnografico sia da luogo di pellegrinaggio vivente.',
+    },
+  },
 };
 
 const ar: ProjectContentPack = {
@@ -398,6 +598,93 @@ const ar: ProjectContentPack = {
     Building: 'المبنى',
     Complex: 'المجمع',
     Mosaic: 'الفسيفساء',
+  },
+  items: {
+    'erzurum-museum-karaz': {
+      tagline: 'ثقافة الأناضول الشرقية الجبلية القديمة، تنبض بالحياة عبر تصميم معرض غامر.',
+      description:
+        'معرض دائم في متحف أرضروم مخصص لثقافة كاراز، إحدى أقدم حضارات الأناضول الشرقية الجبلية. يحوّل المعرض البحث الأثري إلى سرديات مكانية مؤثرة، ويقود الزوار عبر تقاليد الدفن وعمارة المستوطنات ونظم المعتقد وفن الخزف لدى شعب قديم.',
+    },
+    'erzincan-altintepe-oren-yeri': {
+      tagline: 'ماضي ألتينتبه وحاضره — قلعة أورارتية تنهض من سهل أرزنجان.',
+      description:
+        'معرض دائم وتجربة ميدانية في موقع ألتينتبه الأثري بأرزنجان، أحد أهم المستوطنات الأورارتية في الأناضول الشرقية. يشمل المشروع تصميم المعرض داخل المتحف الميداني، إلى جانب التوجيه والتفسير عبر القلعة القديمة والمعبد والمجمع الملكي.',
+    },
+    'cumhurbaskanligi-15-temmuz-demokrasi-muzesi': {
+      tagline: 'متحف ضخم يكرّم روح مقاومة أمة في ليلة الخامس عشر من يوليو 2016.',
+      description:
+        'يقف متحف الرئاسة للديمقراطية في 15 يوليو شاهداً دائماً على الشجاعة والتضحية في محاولة الانقلاب عام 2016. يحوّل تصميم المعرض ذاكرة وطنية عميقة وشخصية إلى تجربة سردية مهيبة وغامرة.',
+    },
+    'istanbul-biennial-pavilion': {
+      tagline: 'نصب مؤقت للزوال.',
+      description:
+        'صُمّم هذا الجناح المؤقت لبينالي إسطنبول السابع عشر، واستكشف العلاقة بين التذكّر والنسيان. بُني ليدوم 90 يوماً فقط، مستخدماً مواد تتقادم بوضوح — فولاذ صدئ وخشب متعرّض للعوامل وأنسجة باهتة — جاعلاً من الاندثار وسيطه الأساسي.',
+    },
+    'istanbul-ayasofya-muzesi': {
+      tagline: 'أحد أهم معالم تاريخ العمارة العالمية، قائم منذ أكثر من 1500 عام.',
+      description:
+        'بُنيت آيا صوفيا في الأصل ككاتدرائية على يد الإمبراطور جستنيان عام 537 م، وصارت من أهم المعالم الدينية والثقافية في تاريخ العالم. بقبتها الضخمة وفسيفسائها الدقيقة، تمثّل تحدياً فريداً لتصميم المعارض.',
+    },
+    'istanbul-topkapi-sarayi-muzesi': {
+      tagline: 'قلب السلطة العثمانية أربعة قرون، واليوم أحد أعظم قصور-متاحف العالم.',
+      description:
+        'شُيّد قصر توبكابي بين عامي 1460 و1478 على موقع الأكروبوليس البيزنطي في سراي بورنو، وكان مركز الإمبراطورية العثمانية من الفاتح إلى السلطان عبد المجيد. يضم اليوم مجموعات إمبراطورية وذخائر مقدسة وأكثر من 300 ألف وثيقة أرشيفية على نحو 400 ألف متر مربع.',
+    },
+    'istanbul-topkapi-harem': {
+      tagline: 'العالم المحرّم والخاص للسلالة العثمانية — 300 غرفة، 9 حمامات، مسجدان وأسرار لا تُحصى.',
+      description:
+        'كان الحرم في قصر توبكابي المسكن الخاص للسلالة العثمانية. وُسّع على مدى أربعة قرون من السادس عشر إلى التاسع عشر، ويمثّل أحد أهم المجموعات المعمارية في التاريخ العثماني، ويتطلب مقاربة تفسيرية حسّاسة.',
+    },
+    'konya-mevlana-muzesi': {
+      tagline: 'المركز الروحي للدراويش الدوّارين، حيث يحيا إرث الرومي في الضوء والصوت والحجر.',
+      description:
+        'متحف مولانا في قونية، القائم في تكية المولوية الأصلية، من أهم المواقع الثقافية الروحية في تركيا. المجمّع العائد إلى القرن الثالث عشر، المبني حول ضريح الرومي (مولانا)، يستقطب سنوياً أكثر من مليوني زائر.',
+    },
+    'antalya-demre-muzesi': {
+      tagline: 'كنيسة القديس نيقولاوس القديمة — حيث يلتقي التاريخ والإيمان وأسطورة بابا نويل.',
+      description:
+        'كنيسة القديس نيقولاوس في ديمره (ميرا القديمة)، المبنية في القرن الثالث الميلادي، من أهم معالم العمارة البيزنطية الوسطى. يجمع مجمّع المتحف والكنيسة بين نصب أثري ومكان حج وأصل تقليد فولكلوري عالمي محبوب.',
+    },
+    'istanbul-kariye-muzesi': {
+      tagline: 'أحد أجمل الأمثلة الباقية لفن الفسيفساء والجداريات البيزنطية، المخبّأ في الأسوار القديمة.',
+      description:
+        'يضم متحف كاريه (كنيسة خورا)، داخل أسوار إسطنبول القديمة، بعضاً من أروع الأمثلة الباقية للفن البيزنطي المتأخر. تكسو جدرانه فسيفساء ذهبية وجداريات نابضة؛ ويكمن التحدي في إضاءة هذه الكنوز مع حمايتها من أضرار الضوء.',
+    },
+    'istanbul-arkeoloji-muzeleri': {
+      tagline: 'إحدى أعظم المجموعات الأثرية في العالم، في تحفة معمارية كلاسيكية جديدة.',
+      description:
+        'تأسست متاحف إسطنبول الأثرية عام 1891 على يد عثمان حمدي بك كمتحف إمبراطوري، وتضم ثلاثة مبانٍ وأكثر من مليون قطعة أثرية، من بينها روائع عالمية كتابوت الإسكندر ومعاهدة قادش، أقدم معاهدة سلام معروفة.',
+    },
+    'anadolu-medeniyetleri-muzesi': {
+      tagline: 'متحف العام في أوروبا، يضم مجموعة استثنائية من العصر الحجري القديم إلى العهد العثماني.',
+      description:
+        'في حي أتبازاري التاريخي بأنقرة، ضمن مبنيين عثمانيين من القرن الخامس عشر، يقدّم متحف حضارات الأناضول إحدى أهم المجموعات الأثرية في العالم. نال عام 1997 جائزة المتحف الأوروبي للعام.',
+    },
+    'ankara-cumhuriyet-muzesi': {
+      tagline: 'المبنى الذي تشكّلت فيه الجمهورية، واليوم متحف يحفظ روح تأسيس تركيا الحديثة.',
+      description:
+        'يقع متحف الجمهورية في مبنى المجلس الوطني الكبير الثاني لتركيا، الذي صممه وَدات تِك عام 1923. استُخدم برلماناً من 1924 إلى 1960، وشهد هذا المبنى الحجري القرارات التأسيسية للجمهورية التركية بقيادة أتاتورك.',
+    },
+    'zeugma-mozaik-muzesi': {
+      tagline: 'أكبر متحف فسيفساء في العالم، حيث تنظر «الفتاة الغجرية» الأسطورية عبر ألفي عام.',
+      description:
+        'يضم متحف زيوغما للفسيفساء في غازي عنتاب أكبر مجموعة من الفسيفساء القديمة تحت سقف واحد. يعرض فسيفساء أرضية رومانية استثنائية أُنقذت من مدينة زيوغما القديمة قبل غمرها بمياه سد بيرجيك.',
+    },
+    'troya-muzesi': {
+      tagline: 'عمارة متحفية معاصرة حائزة على جوائز، تؤطّر ملحمة عمرها 3000 عام.',
+      description:
+        'افتُتح متحف طروادة، الواقع عند مدخل موقع طروادة القديمة المدرج على قائمة اليونسكو، عام 2018 بإشادة دولية. يضم بناؤه المكعّب المتعدد الطوابق قطعاً من طبقات طروادة الأثرية التسع، مقيماً حواراً بين الأسطورة الهوميرية وعلم المتاحف المعاصر.',
+    },
+    'gobeklitepe-oren-yeri': {
+      tagline: 'نقطة الصفر في التاريخ: معابد عمرها 12000 عام، أول عمارة ضخمة للبشرية.',
+      description:
+        'غوبكلي تبه، الموقع المدرج على قائمة التراث العالمي لليونسكو، هو أقدم مجمّع معابد ضخم معروف في تاريخ البشرية. غيّرت أعمدته الميغاليتية على شكل حرف T، العائدة إلى نحو 10000 ق.م، فهمنا للثورة النيوليتية جذرياً.',
+    },
+    'nevsehir-hacibektas-muzesi': {
+      tagline: 'تكية الحاج بكتاش ولي من القرن الثالث عشر، حافظة التراث الروحي والثقافي للعلوية الأناضولية.',
+      description:
+        'أسّس المجمّع في القرن الثالث عشر المتصوف التركي الحاج بكتاش ولي، وهو من أهم المواقع الروحية والثقافية في الأناضول. حُوّل إلى متحف عام 1964، ويعمل اليوم متحفاً إثنوغرافياً ومكان حج حياً في آن.',
+    },
   },
 };
 

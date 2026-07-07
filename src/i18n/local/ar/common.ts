@@ -15,6 +15,7 @@ const common = {
     linkedin: 'لينكد إن',
   },
   language: 'اللغة',
+  imageComingSoon: 'الصورة قريباً',
 };
 
 export default common;
