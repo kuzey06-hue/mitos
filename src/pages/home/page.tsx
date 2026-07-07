@@ -15,7 +15,7 @@ const homeSchema = {
   description: 'Mitos, müze, sergi, iç mekan ve kültürel miras projelerinde uzmanlaşmış bir deneyim tasarımı stüdyosudur.',
   founder: {
     '@type': 'Person',
-    name: 'Eren Mitoğlu',
+    name: 'Hakan Aktaş',
     jobTitle: 'Kurucu & Kreatif Direktör',
   },
   address: {

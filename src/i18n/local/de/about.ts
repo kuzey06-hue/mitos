@@ -81,8 +81,8 @@ const about = {
   },
   seo: {
     title: 'Unsere Philosophie — Mitos | Designphilosophie',
-    description: 'Die Designphilosophie von Mitos, das Manifest und die Vision des Gründers Eren Mitoğlu. Jeder Raum birgt eine Geschichte — wir wissen nur, wie man zuhört. Ein poetischer Ansatz zur Gestaltung physischer Räume.',
-    keywords: 'Designphilosophie, Eren Mitoğlu, Manifest, Experience Design Ansatz',
+    description: 'Die Designphilosophie von Mitos, das Manifest und die Vision des Gründers Hakan Aktaş. Jeder Raum birgt eine Geschichte — wir wissen nur, wie man zuhört. Ein poetischer Ansatz zur Gestaltung physischer Räume.',
+    keywords: 'Designphilosophie, Hakan Aktaş, Manifest, Experience Design Ansatz',
   },
 };
 

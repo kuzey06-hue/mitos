@@ -81,8 +81,8 @@ const about = {
   },
   seo: {
     title: 'Our Philosophy — Mitos | Design Philosophy',
-    description: "Mitos's design philosophy, manifesto, and the vision of founder Eren Mitoğlu. Every space holds a story — we just know how to listen. A poetic approach to physical space design.",
-    keywords: 'design philosophy, Eren Mitoğlu, manifesto, experience design approach',
+    description: "Mitos's design philosophy, manifesto, and the vision of founder Hakan Aktaş. Every space holds a story — we just know how to listen. A poetic approach to physical space design.",
+    keywords: 'design philosophy, Hakan Aktaş, manifesto, experience design approach',
   },
 };
 

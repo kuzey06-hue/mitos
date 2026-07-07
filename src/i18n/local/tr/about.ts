@@ -81,8 +81,8 @@ const about = {
   },
   seo: {
     title: 'Felsefemiz — Mitos | Tasarım Felsefesi',
-    description: "Mitos'un tasarım felsefesi, manifestosu ve kurucusu Eren Mitoğlu'nun vizyonu. Her mekanın anlatacak bir hikayesi vardır — biz sadece dinlemeyi biliyoruz. Fiziksel mekan tasarımında şiirsel yaklaşım.",
-    keywords: 'tasarım felsefesi, Eren Mitoğlu, manifesto, deneyim tasarımı yaklaşımı',
+    description: "Mitos'un tasarım felsefesi, manifestosu ve kurucusu Hakan Aktaş'ın vizyonu. Her mekanın anlatacak bir hikayesi vardır — biz sadece dinlemeyi biliyoruz. Fiziksel mekan tasarımında şiirsel yaklaşım.",
+    keywords: 'tasarım felsefesi, Hakan Aktaş, manifesto, deneyim tasarımı yaklaşımı',
   },
 };
 

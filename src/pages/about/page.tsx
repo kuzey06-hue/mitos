@@ -17,13 +17,13 @@ export default function About() {
     '@context': 'https://schema.org',
     '@type': 'AboutPage',
     name: 'Our Philosophy — Mitos',
-    description: "Mitos'un tasarım felsefesi, manifestosu, yaklaşımı ve kurucusu Eren Mitoğlu'nun vizyonu.",
+    description: "Mitos'un tasarım felsefesi, manifestosu, yaklaşımı ve kurucusu Hakan Aktaş'ın vizyonu.",
     about: {
       '@type': 'Organization',
       name: 'Mitos',
       founder: {
         '@type': 'Person',
-        name: 'Eren Mitoğlu',
+        name: 'Hakan Aktaş',
         jobTitle: 'Kurucu & Kreatif Direktör',
       },
     },

@@ -81,8 +81,8 @@ const about = {
   },
   seo: {
     title: 'La Nostra Filosofia — Mitos | Filosofia del Design',
-    description: 'La filosofia di design di Mitos, il manifesto e la visione del fondatore Eren Mitoğlu. Ogni spazio ha una storia da raccontare — noi sappiamo solo ascoltare. Un approccio poetico al design degli spazi fisici.',
-    keywords: 'filosofia del design, Eren Mitoğlu, manifesto, approccio experience design',
+    description: 'La filosofia di design di Mitos, il manifesto e la visione del fondatore Hakan Aktaş. Ogni spazio ha una storia da raccontare — noi sappiamo solo ascoltare. Un approccio poetico al design degli spazi fisici.',
+    keywords: 'filosofia del design, Hakan Aktaş, manifesto, approccio experience design',
   },
 };
 

@@ -12,11 +12,11 @@ export default function Founder() {
       <div className={`max-w-6xl mx-auto transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image */}
-          <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:mx-0 overflow-hidden bg-background-200">
+          <div className="relative aspect-[3/2] w-full overflow-hidden bg-background-200">
             <img
-              src="https://readdy.ai/api/search-image?query=Portrait%20of%20a%20confident%20creative%20director%20in%20a%20minimalist%20dark%20studio%20setting%2C%20dramatic%20side%20lighting%20with%20warm%20golden%20tones%2C%20wearing%20simple%20dark%20clothing%2C%20thoughtful%20expression%2C%20professional%20editorial%20photography%20style%2C%20shallow%20depth%20of%20field%2C%20sophisticated%20and%20refined%20atmosphere%2C%20high%20contrast%20lighting&width=600&height=800&seq=mitos-founder&orientation=portrait"
-              alt="Mitos Founder"
-              className="w-full h-full object-cover object-top"
+              src="/founder.png"
+              alt="Hakan Aktaş — Mitos"
+              className="w-full h-full object-cover object-center"
             />
             {/* Subtle overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-background-100/40 via-transparent to-transparent" />
