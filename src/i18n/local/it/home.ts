@@ -4,6 +4,9 @@ const home = {
     line1: 'Trasformiamo gli spazi',
     highlight: 'in storie',
     line2: 'da raccontare.',
+    description:
+      'Creiamo esperienze olistiche per musei, mostre e patrimonio culturale — ricercate, progettate e portate nel futuro.',
+    cta: 'Scopri di più',
     disciplines: 'Museo · Mostra · Interni · Patrimonio Culturale',
     scroll: 'Scorri',
   },

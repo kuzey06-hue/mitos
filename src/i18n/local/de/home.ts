@@ -4,6 +4,9 @@ const home = {
     line1: 'Wir verwandeln Räume',
     highlight: 'in Geschichten,',
     line2: 'die bewegen.',
+    description:
+      'Wir schaffen ganzheitliche Erlebnisse für Museen, Ausstellungen und Kulturerbe – erforscht, gestaltet und in die Zukunft getragen.',
+    cta: 'Mehr entdecken',
     disciplines: 'Museum · Ausstellung · Interieur · Kulturerbe',
     scroll: 'Scrollen',
   },

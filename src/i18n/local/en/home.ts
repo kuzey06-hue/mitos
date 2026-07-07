@@ -4,6 +4,9 @@ const home = {
     line1: 'We turn spaces',
     highlight: 'into stories',
     line2: 'worth telling.',
+    description:
+      'We create holistic experiences for museums, exhibitions, and cultural heritage — researched, designed, and carried into the future.',
+    cta: 'Explore More',
     disciplines: 'Museum · Exhibition · Interior · Cultural Heritage',
     scroll: 'Scroll',
   },

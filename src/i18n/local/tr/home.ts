@@ -4,6 +4,9 @@ const home = {
     line1: 'Mekanları',
     highlight: 'hikayelere',
     line2: 'dönüştürürüz.',
+    description:
+      'Müze, sergi ve kültürel miras projeleri için araştıran, tasarlayan ve geleceğe taşıyan bütüncül deneyimler yaratıyoruz.',
+    cta: 'Daha Fazla Keşfet',
     disciplines: 'Müze · Sergi · İç Mekan · Kültürel Miras',
     scroll: 'Kaydır',
   },
